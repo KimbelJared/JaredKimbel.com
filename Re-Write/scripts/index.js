@@ -3,7 +3,7 @@
  * - All our useful JS goes here, awesome!
  */
 
-function confirmEntery()
+function contact()
 {
-  confirm("Are You Sure?")
+  confirm("Not Finished Yet, Sorry!")
 }
