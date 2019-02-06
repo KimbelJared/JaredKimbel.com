@@ -72,6 +72,10 @@ a
   color:#de4c4f;
   text-decoration:none
 }
+b, strong
+{
+  font-weight:bold !important;
+}
 h1
 {
   font-family:"AvenirNext-Medium";
