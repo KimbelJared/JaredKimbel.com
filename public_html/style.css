@@ -180,6 +180,13 @@ code
 {
   overflow-x:hidden
 }
+.sketch-wrapper
+{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 u
 {
   text-decoration:none;
