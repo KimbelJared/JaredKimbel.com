@@ -76,6 +76,10 @@ b, strong
 {
   font-weight:bold !important;
 }
+i
+{
+  font-style: italic;
+}
 h1
 {
   font-family:"AvenirNext-Medium";
