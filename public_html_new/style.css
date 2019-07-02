@@ -1,0 +1,38 @@
+body
+{
+  background-color: rgba(51,51,51,255);
+  font-family: "Courier New", courier, monospace;
+}
+
+hr
+{
+  margin-top: -1.5%;
+  width: 20%;
+}
+
+h3
+{
+  color: #5c849c;
+  position: relative;
+  left: -5%;
+}
+
+h4
+{
+  margin-top: 1%;
+  margin-bottom: 0;
+}
+.container
+{
+  padding: 2%;
+  color: #88b99d;
+  text-align: center;
+}
+
+/*
+#403342
+#3b456a
+#858da4
+#9aadc7
+#91a2ce
+*/
