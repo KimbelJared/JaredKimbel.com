@@ -1,8 +1,9 @@
 function setup()
 {
   //createCanvas(displayWidth, displayHeight);
-  createCanvas(800, 800);
+  var cnv = createCanvas(800, 800);
   angleMode(DEGREES);
+  cnv.parent('sketch-wrapper');
 }
 
 function draw()
