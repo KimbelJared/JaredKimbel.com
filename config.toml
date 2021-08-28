@@ -1,0 +1,38 @@
+relativeURLs = true
+baseurl      = "/"
+title        = "Jared Kimbel"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[author]
+  name = "Jared Kimbel"
+
+[params.logo]
+  logoHomeLink = "/"
+
+[[params.social]]
+  name = "github"
+  url  = "https://github.com/KimbelJared"
+
+[[params.social]]
+  name = "spotify"
+  url  = "https://open.spotify.com/user/1264601159?si=YVkQ4BfsTzmx4J0GR64vnA"
+
+[[params.social]]
+  name = "linkedin"
+  url  = "https://www.linkedin.com/in/jared-kimbel-8a6b3a21a/"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "projects/"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
