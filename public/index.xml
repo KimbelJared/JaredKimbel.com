@@ -6,34 +6,33 @@
     <description>Recent content on Jared Kimbel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grandpa John Memorial Video</title>
+      <link>/posts/gpajohn/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gpajohn/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Poppa Clair Memorial Video</title>
+      <link>/posts/gpaclair/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gpaclair/</guid>
+      <description>   </description>
+    </item>
+    
     <item>
       <title>Fall &#39;21 Semester Recap</title>
       <link>/school/f21/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>/school/f21/</guid>
-      <description> Hello Text about Semester  This is My DIV
-Click me to display Date and Time.  </description>
-    </item>
-    
-    <item>
-      <title>Text file dissection</title>
-      <link>/posts/unigrams/</link>
-      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/unigrams/</guid>
-      <description>This is one of the first C++ projects I have done that actually felt useful. The program takes a .txt file input, cleans it up, and counts unigrams and bigrams.
-Throughout this post, I am going to break down some of the more interesting bits of code, or things I find interesting. If you want to skip that and just look at the code yourself, you can here[LINK TO GITHUB].</description>
-    </item>
-    
-    <item>
-      <title>Clock</title>
-      <link>/projects/clock/</link>
-      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/clock/</guid>
-      <description>This is text alert(&#34;Test&#34;);   </description>
+      <description>This project is beginning almost 2 years late, but you have to start somewhere. I started time-tracking in late 2019, in order to see where I spent my time. Now it&amp;rsquo;s just a tool to reflect, and learn from how each quarter of the year goes.
+A return from Covid Fall 2021 marks the return to campus for most people, and after having 2.5 semesters of coasting through online classes, I was curious how my return would go.</description>
     </item>
     
     <item>

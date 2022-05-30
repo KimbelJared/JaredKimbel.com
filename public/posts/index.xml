@@ -5,57 +5,36 @@
         <description>Recent content in Posts on Jared Kimbel</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 02 Sep 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Text file dissection</title>
-            <link>/posts/unigrams/</link>
-            <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+            <title>Grandpa John Memorial Video</title>
+            <link>/posts/gpajohn/</link>
+            <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
             
-            <guid>/posts/unigrams/</guid>
-            <description>This is one of the first C++ projects I have done that actually felt useful. The program takes a .txt file input, cleans it up, and counts unigrams and bigrams.
-Throughout this post, I am going to break down some of the more interesting bits of code, or things I find interesting. If you want to skip that and just look at the code yourself, you can here[LINK TO GITHUB].</description>
-            <content type="html"><![CDATA[<p>This is one of the first C++ projects I have done that actually felt useful. The program takes a .txt file input, cleans it up, and counts unigrams and bigrams.</p>
-<p>Throughout this post, I am going to break down some of the more interesting bits of code, or things I find interesting. If you want to skip that and just look at the code yourself, you can here[LINK TO GITHUB].</p>
-<p>To start if you&rsquo;ve never heard of unigrams or bigrams (like I hadn&rsquo;t). The concept comes from n-grams, basically just continuous &ldquo;phrases&rdquo; from some larger section of text. So unigram just being words in this case, and bigrams being strings of 2 words that appear next to each other.</p>
-<p>If we were to have a string &ldquo;that dog runs fast&rdquo;.</p>
-<p>the unigrams would be:
-that
-dog
-runs
-fast</p>
-<p>and the bigrams:
-that dog
-dog runs
-runs fast</p>
-<p>Now into the fun parts of code!</p>
-<p>TODO: readData</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">readData</span>(string fileName, string  (<span style="color:#f92672">&amp;</span>wordArray)[ARRAYSIZE], <span style="color:#66d9ef">int</span> <span style="color:#f92672">&amp;</span>wordCount)
-{
-  ifstream textFile(fileName);
-  <span style="color:#66d9ef">if</span>(textFile.is_open())
-  {
-    <span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
-    <span style="color:#66d9ef">while</span>(textFile <span style="color:#f92672">&gt;&gt;</span> wordArray[i])
-    {
-      i<span style="color:#f92672">++</span>;
-    }
-    textFile.close();
-    wordCount <span style="color:#f92672">=</span> i;
-    cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Finished Reading &#34;</span> <span style="color:#f92672">&lt;&lt;</span> wordCount <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; words. Closing file&#34;</span> <span style="color:#f92672">&lt;&lt;</span> endl;
-  } <span style="color:#66d9ef">else</span>
-  {
-    cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;File could not be opened&#34;</span> <span style="color:#f92672">&lt;&lt;</span> endl;
-    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
-  }
-  <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>;
-}
-</code></pre></div><p>TODO: cleanUp</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">  <span style="color:#75715e">// your code here
-</span></code></pre></div><p>TODO: generate Unigram/bigrams</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">  <span style="color:#75715e">// your code here
-</span></code></pre></div><p>TODO: Other cool uses once its setup: getLongestWord, Search. Logging. In theory shortestWord, things that repeat x times</p>
+            <guid>/posts/gpajohn/</guid>
+            <description>   </description>
+            <content type="html"><![CDATA[
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/715374550" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Poppa Clair Memorial Video</title>
+            <link>/posts/gpaclair/</link>
+            <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/gpaclair/</guid>
+            <description>   </description>
+            <content type="html"><![CDATA[
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/715375353" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
 ]]></content>
         </item>
         

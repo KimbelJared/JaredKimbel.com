@@ -5,17 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Jared Kimbel ">
-<meta name="description" content="This is one of the first C&#43;&#43; projects I have done that actually felt useful. The program takes a .txt file input, cleans it up, and counts unigrams and bigrams.
-Throughout this post, I am going to break down some of the more interesting bits of code, or things I find interesting. If you want to skip that and just look at the code yourself, you can here[LINK TO GITHUB]." />
+<meta name="description" content="I&amp;rsquo;ve put off writing this for months, telling myself that once I started, everything became real. That won&amp;rsquo;t change anything, all I will do is forget all the stories, and things I wanted to document.
+Chief Ed
+While on the base in Vietnam, they started to come under fire. One of the C-130&amp;rsquo;s would not start and as he put it, &amp;ldquo;I was the only one stupid enough to try and fix it&amp;rdquo;." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="../../posts/unigrams/" />
+<link rel="canonical" href="../../posts/poppa/" />
 
 
     <title>
         
-            Text file dissection :: Jared Kimbel 
+            The man cancer couldn&#39;t kill :: Jared Kimbel 
         
     </title>
 
@@ -33,16 +34,18 @@ Throughout this post, I am going to break down some of the more interesting bits
 
 
 
-<meta itemprop="name" content="Text file dissection">
-<meta itemprop="description" content="This is one of the first C&#43;&#43; projects I have done that actually felt useful. The program takes a .txt file input, cleans it up, and counts unigrams and bigrams.
-Throughout this post, I am going to break down some of the more interesting bits of code, or things I find interesting. If you want to skip that and just look at the code yourself, you can here[LINK TO GITHUB]."><meta itemprop="datePublished" content="2021-09-02T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-09-02T00:00:00+00:00" />
-<meta itemprop="wordCount" content="243">
+<meta itemprop="name" content="The man cancer couldn&#39;t kill">
+<meta itemprop="description" content="I&rsquo;ve put off writing this for months, telling myself that once I started, everything became real. That won&rsquo;t change anything, all I will do is forget all the stories, and things I wanted to document.
+Chief Ed
+While on the base in Vietnam, they started to come under fire. One of the C-130&rsquo;s would not start and as he put it, &ldquo;I was the only one stupid enough to try and fix it&rdquo;."><meta itemprop="datePublished" content="2022-05-11T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-05-11T00:00:00+00:00" />
+<meta itemprop="wordCount" content="353">
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Text file dissection"/>
-<meta name="twitter:description" content="This is one of the first C&#43;&#43; projects I have done that actually felt useful. The program takes a .txt file input, cleans it up, and counts unigrams and bigrams.
-Throughout this post, I am going to break down some of the more interesting bits of code, or things I find interesting. If you want to skip that and just look at the code yourself, you can here[LINK TO GITHUB]."/>
+<meta name="twitter:title" content="The man cancer couldn&#39;t kill"/>
+<meta name="twitter:description" content="I&rsquo;ve put off writing this for months, telling myself that once I started, everything became real. That won&rsquo;t change anything, all I will do is forget all the stories, and things I wanted to document.
+Chief Ed
+While on the base in Vietnam, they started to come under fire. One of the C-130&rsquo;s would not start and as he put it, &ldquo;I was the only one stupid enough to try and fix it&rdquo;."/>
 
 
 
@@ -51,7 +54,7 @@ Throughout this post, I am going to break down some of the more interesting bits
 
 
 
-    <meta property="article:published_time" content="2021-09-02 00:00:00 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2022-05-11 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -124,7 +127,7 @@ Throughout this post, I am going to break down some of the more interesting bits
 
     <article>
       <h1 class="post-title">
-        <a href="../../posts/unigrams/">Text file dissection</a>
+        <a href="../../posts/poppa/">The man cancer couldn&rsquo;t kill</a>
       </h1>
 
       
@@ -132,46 +135,26 @@ Throughout this post, I am going to break down some of the more interesting bits
       
 
       <div class="post-content">
-        <p>This is one of the first C++ projects I have done that actually felt useful. The program takes a .txt file input, cleans it up, and counts unigrams and bigrams.</p>
-<p>Throughout this post, I am going to break down some of the more interesting bits of code, or things I find interesting. If you want to skip that and just look at the code yourself, you can here[LINK TO GITHUB].</p>
-<p>To start if you&rsquo;ve never heard of unigrams or bigrams (like I hadn&rsquo;t). The concept comes from n-grams, basically just continuous &ldquo;phrases&rdquo; from some larger section of text. So unigram just being words in this case, and bigrams being strings of 2 words that appear next to each other.</p>
-<p>If we were to have a string &ldquo;that dog runs fast&rdquo;.</p>
-<p>the unigrams would be:
-that
-dog
-runs
-fast</p>
-<p>and the bigrams:
-that dog
-dog runs
-runs fast</p>
-<p>Now into the fun parts of code!</p>
-<p>TODO: readData</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">readData</span>(string fileName, string  (<span style="color:#f92672">&amp;</span>wordArray)[ARRAYSIZE], <span style="color:#66d9ef">int</span> <span style="color:#f92672">&amp;</span>wordCount)
-{
-  ifstream textFile(fileName);
-  <span style="color:#66d9ef">if</span>(textFile.is_open())
-  {
-    <span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
-    <span style="color:#66d9ef">while</span>(textFile <span style="color:#f92672">&gt;&gt;</span> wordArray[i])
-    {
-      i<span style="color:#f92672">++</span>;
-    }
-    textFile.close();
-    wordCount <span style="color:#f92672">=</span> i;
-    cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Finished Reading &#34;</span> <span style="color:#f92672">&lt;&lt;</span> wordCount <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; words. Closing file&#34;</span> <span style="color:#f92672">&lt;&lt;</span> endl;
-  } <span style="color:#66d9ef">else</span>
-  {
-    cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;File could not be opened&#34;</span> <span style="color:#f92672">&lt;&lt;</span> endl;
-    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
-  }
-  <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>;
-}
-</code></pre></div><p>TODO: cleanUp</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">  <span style="color:#75715e">// your code here
-</span></code></pre></div><p>TODO: generate Unigram/bigrams</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">  <span style="color:#75715e">// your code here
-</span></code></pre></div><p>TODO: Other cool uses once its setup: getLongestWord, Search. Logging. In theory shortestWord, things that repeat x times</p>
+        <p>I&rsquo;ve put off writing this for months, telling myself that once I started, everything became real.
+That won&rsquo;t change anything, all I will do is forget all the stories, and things I wanted to document.</p>
+<p><strong>Chief Ed</strong></p>
+<p>While on the  base in  Vietnam, they started to come under fire. One of the C-130&rsquo;s would not start and
+as he put it, &ldquo;I was the only one stupid enough to try and fix it&rdquo;. So while
+taking fire, he was able  to fix the plane, saving the day with his heroic actions. Chief Ed was awarded a
+Bronze Star for his heroic actions.</p>
+<p>He was also  just  as much of a hooligan  as  you  would expect. Last  fall while he was in  the hospital,
+I would come and hangout with him before work. I would  sit next to him in the bed, hold  his hand, and he
+would tell me stories.</p>
+<p>Stationed who knows where, him and his  buddies were returning to the hotel that they were staying at, after a
+night of drinking. As they got close to the hotel, a car stopped next to them and the driver hopped  out. He was clearly
+more intoxicated than the group of airmen, but still asked  them to drive him home. Ed hopped  into the drivers
+seat. As they approached the  guys  house, they stopped the car, he hopped out and  waved them off. Realizing they now
+had the  car, Ed took it for a joyride. After  driving for a while, they cops  pulled up  behind  them, lights on,
+in an  attempt  to  pull  the car over.</p>
+<p>Ed  did  not  stop  the car,  simply  driving  fast, eventually  leading to a cornfield  where he jumped  out of  the  car
+and  booked  it. Climbing through backyards and ditches  till he found a shed out back of a house, and slept there for the night.</p>
+<p>Returning to the hotel in  the morning, he was surprised  by the lack of interest in him. But his fellow  airmen had had
+not  turned him in. They claimed someone offered them a ride and they did not realize the car was stolen.</p>
 
       </div>
     </article>
@@ -190,7 +173,7 @@ runs fast</p>
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        243 Words
+        353 Words
       </p>
 
       <p>
@@ -201,7 +184,7 @@ runs fast</p>
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2021-09-01 17:00
+          2022-05-10 17:00
         
 
          
@@ -220,13 +203,20 @@ runs fast</p>
         <div class="pagination__buttons">
           
             <span class="button previous">
-              <a href="../../posts/poppa/">
+              <a href="../../posts/gpaclair/">
                 <span class="button__icon">←</span>
-                <span class="button__text">The man cancer couldn&#39;t kill</span>
+                <span class="button__text">Poppa Clair Memorial Video</span>
               </a>
             </span>
           
 
+          
+            <span class="button next">
+              <a href="../../posts/unigrams/">
+                <span class="button__text">Text file dissection</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
           
         </div>
       </div>
