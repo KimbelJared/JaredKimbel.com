@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jared Kimbel</title>
-    <link>https://yourdomain.com/</link>
+    <link>https://jaredkimbel.com/</link>
     <description>Recent content on Jared Kimbel</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 23 Feb 2026 22:43:25 -0800</lastBuildDate>
-    <atom:link href="https://yourdomain.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jaredkimbel.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Experience</title>
-      <link>https://yourdomain.com/experience/</link>
+      <link>https://jaredkimbel.com/experience/</link>
       <pubDate>Mon, 23 Feb 2026 22:43:25 -0800</pubDate>
-      <guid>https://yourdomain.com/experience/</guid>
+      <guid>https://jaredkimbel.com/experience/</guid>
       <description>&lt;h2 id=&#34;baughman-kroup-bosse-pllc--financial-analyst-072024--present&#34;&gt;Baughman Kroup Bosse, PLLC — Financial Analyst (07/2024 – Present)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Lead firm-level budget development supporting executive decision-making in planning, client acquisition evaluation, and staffing optimization.&lt;/li&gt;
@@ -39,9 +39,9 @@
     </item>
     <item>
       <title>Projects</title>
-      <link>https://yourdomain.com/projects/</link>
+      <link>https://jaredkimbel.com/projects/</link>
       <pubDate>Mon, 23 Feb 2026 22:43:25 -0800</pubDate>
-      <guid>https://yourdomain.com/projects/</guid>
+      <guid>https://jaredkimbel.com/projects/</guid>
       <description>&lt;h2 id=&#34;data-automation--workflow-engineering&#34;&gt;Data Automation &amp;amp; Workflow Engineering&lt;/h2&gt;
 &lt;p&gt;I build structured, reliable workflows that improve financial data integrity, reduce manual effort, and increase reporting confidence. My work focuses on reconciliation, ERP reporting, and operational finance processes — applying a systems mindset to ensure accuracy at scale.&lt;/p&gt;
 &lt;h3 id=&#34;automated-revenue-reporting-workflow-allegiant-airlines&#34;&gt;Automated Revenue Reporting Workflow (Allegiant Airlines)&lt;/h3&gt;
@@ -52,10 +52,10 @@
     </item>
     <item>
       <title>Resume</title>
-      <link>https://yourdomain.com/resume/</link>
+      <link>https://jaredkimbel.com/resume/</link>
       <pubDate>Mon, 23 Feb 2026 22:43:25 -0800</pubDate>
-      <guid>https://yourdomain.com/resume/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://yourdomain.com/files/kimbel_resume.pdf&#34;&gt;Jared Kimbel – Resume (PDF)&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
+      <guid>https://jaredkimbel.com/resume/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jaredkimbel.com/files/kimbel_resume.pdf&#34;&gt;Jared Kimbel – Resume (PDF)&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
