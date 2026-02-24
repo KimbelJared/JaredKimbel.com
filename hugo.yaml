@@ -1,0 +1,48 @@
+baseURL: "https://jaredkimbel.com/"
+title: "Jared Kimbel"
+theme: "PaperMod"
+paginate: 10
+enableRobotsTXT: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Jared Kimbel"
+  description: "Finance and data professional focused on budgeting, revenue operations, and systems-driven process improvement."
+  author: "Jared Kimbel"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+
+  profileMode:
+    enabled: true
+    title: "Jared Kimbel"
+    subtitle: "Finance & Data Professional"
+    imageUrl: ""         # optional later: /img/headshot.jpg
+    imageTitle: ""
+    imageWidth: 120
+    imageHeight: 120
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/kimbelj/"
+    - name: github
+      url: "https://github.com/kimbeljared/"
+    - name: cv
+      url: "/resume/"
+
+menu:
+  main:
+    - name: Experience
+      url: /experience/
+      weight: 10
+    - name: Projects
+      url: /projects/
+      weight: 20
+    - name: Resume
+      url: /resume/
+      weight: 30

@@ -1,48 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jared Kimbel</title>
-    <link>/</link>
+    <link>https://yourdomain.com/</link>
     <description>Recent content on Jared Kimbel</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.156.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Feb 2026 22:43:25 -0800</lastBuildDate>
+    <atom:link href="https://yourdomain.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Grandpa John Memorial Video</title>
-      <link>/posts/gpajohn/</link>
-      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/gpajohn/</guid>
-      <description>   </description>
+      <title>Experience</title>
+      <link>https://yourdomain.com/experience/</link>
+      <pubDate>Mon, 23 Feb 2026 22:43:25 -0800</pubDate>
+      <guid>https://yourdomain.com/experience/</guid>
+      <description>&lt;h2 id=&#34;baughman-kroup-bosse-pllc--financial-analyst-072024--present&#34;&gt;Baughman Kroup Bosse, PLLC — Financial Analyst (07/2024 – Present)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lead firm-level budget development supporting executive decision-making in planning, client acquisition evaluation, and staffing optimization.&lt;/li&gt;
+&lt;li&gt;Own monthly potential business write-off analysis; present findings and recommendations to executive leadership.&lt;/li&gt;
+&lt;li&gt;Architect and deploy NetSuite dashboards delivering real-time visibility across revenue and expense metrics.&lt;/li&gt;
+&lt;li&gt;Oversee daily reconciliation and posting of credit card transactions, ensuring data integrity across systems.&lt;/li&gt;
+&lt;li&gt;Design and implement ERP process improvements and system integrations to streamline workflows and improve reporting efficiency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;allegiant-airlines--staff-accountant-revenue-052023--052024&#34;&gt;Allegiant Airlines — Staff Accountant, Revenue (05/2023 – 05/2024)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Managed daily revenue journal entries supporting approximately $2B in annual revenue within a publicly traded, high-volume environment.&lt;/li&gt;
+&lt;li&gt;Conducted structured inflight revenue audits to ensure transactional accuracy and compliance.&lt;/li&gt;
+&lt;li&gt;Reconciled air traffic liability accounts, strengthening deferred revenue visibility and reporting accuracy.&lt;/li&gt;
+&lt;li&gt;Designed and implemented automated revenue reporting workflows, reducing manual processing time by ~25%.&lt;/li&gt;
+&lt;li&gt;Partnered cross-functionally with finance, operations, and external stakeholders to ensure accurate billing and commission payments.&lt;/li&gt;
+&lt;li&gt;Participated in cross-functional ERP migration testing and validation during transition from internal systems to SAP, supporting system readiness and data integrity verification.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mgm-resorts--internal-audit-data-analyst-intern-012022--052023&#34;&gt;MGM Resorts — Internal Audit, Data Analyst Intern (01/2022 – 05/2023)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed self-service reporting tools supporting internal audit analytics and risk assessment.&lt;/li&gt;
+&lt;li&gt;Automated audit documentation workflows to improve efficiency and standardization.&lt;/li&gt;
+&lt;li&gt;Extracted, validated, and visualized financial and operational datasets.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
-      <title>Poppa Clair Memorial Video</title>
-      <link>/posts/gpaclair/</link>
-      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/gpaclair/</guid>
-      <description>   </description>
+      <title>Projects</title>
+      <link>https://yourdomain.com/projects/</link>
+      <pubDate>Mon, 23 Feb 2026 22:43:25 -0800</pubDate>
+      <guid>https://yourdomain.com/projects/</guid>
+      <description>&lt;h2 id=&#34;data-automation--workflow-engineering&#34;&gt;Data Automation &amp;amp; Workflow Engineering&lt;/h2&gt;
+&lt;p&gt;I build structured, reliable workflows that improve financial data integrity, reduce manual effort, and increase reporting confidence. My work focuses on reconciliation, ERP reporting, and operational finance processes — applying a systems mindset to ensure accuracy at scale.&lt;/p&gt;
+&lt;h3 id=&#34;automated-revenue-reporting-workflow-allegiant-airlines&#34;&gt;Automated Revenue Reporting Workflow (Allegiant Airlines)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Manual daily reporting workflows created bottlenecks and increased risk of inconsistencies across datasets.&lt;br&gt;
+&lt;strong&gt;Approach:&lt;/strong&gt; Designed an automated reporting workflow that standardized inputs, validated data integrity, and produced consistent daily outputs for revenue operations.&lt;br&gt;
+&lt;strong&gt;Impact:&lt;/strong&gt; Reduced manual processing time by ~25% while improving reporting reliability.&lt;br&gt;
+&lt;strong&gt;Tools:&lt;/strong&gt; SQL, Power Query, PowerShell, Excel&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Fall &#39;21 Semester Recap</title>
-      <link>/school/f21/</link>
-      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/school/f21/</guid>
-      <description>This project is beginning almost 2 years late, but you have to start somewhere. I started time-tracking in late 2019, in order to see where I spent my time. Now it&amp;rsquo;s just a tool to reflect, and learn from how each quarter of the year goes.
-A return from Covid Fall 2021 marks the return to campus for most people, and after having 2.5 semesters of coasting through online classes, I was curious how my return would go.</description>
+      <title>Resume</title>
+      <link>https://yourdomain.com/resume/</link>
+      <pubDate>Mon, 23 Feb 2026 22:43:25 -0800</pubDate>
+      <guid>https://yourdomain.com/resume/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://yourdomain.com/files/kimbel_resume.pdf&#34;&gt;Jared Kimbel – Resume (PDF)&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title></title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jared Kimbel</title>
+    <link>/</link>
+    <description>Recent content on Jared Kimbel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grandpa John Memorial Video</title>
+      <link>/posts/gpajohn/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gpajohn/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Poppa Clair Memorial Video</title>
+      <link>/posts/gpaclair/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gpaclair/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Fall &#39;21 Semester Recap</title>
+      <link>/school/f21/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/school/f21/</guid>
+      <description>This project is beginning almost 2 years late, but you have to start somewhere. I started time-tracking in late 2019, in order to see where I spent my time. Now it&amp;rsquo;s just a tool to reflect, and learn from how each quarter of the year goes.
+A return from Covid Fall 2021 marks the return to campus for most people, and after having 2.5 semesters of coasting through online classes, I was curious how my return would go.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
